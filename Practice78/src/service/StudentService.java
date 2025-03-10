@@ -13,7 +13,7 @@ public class StudentService {
     public StudentService() {
         sumGrades = 0;
         countStudents = 0;
-        maxGrade = Integer.MIN_VALUE; //важно, чтобы первая оценка стала и минимумом и максимумом
+        maxGrade = Integer.MIN_VALUE;
         minGrade = Integer.MAX_VALUE;
         bestStudent = null;
         worstStudent = null;
